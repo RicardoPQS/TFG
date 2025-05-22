@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "arsenal_magitek:item/sword_pickaxe"
+    }
+}

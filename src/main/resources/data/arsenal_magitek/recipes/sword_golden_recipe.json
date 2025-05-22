@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " G ",
+    " S "
+  ],
+  "key": {
+    "B": { "item": "minecraft:blaze_powder" },
+    "G": { "item": "minecraft:gold_block" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "arsenal_magitek:sword_golden",
+    "count": 1
+  }
+}

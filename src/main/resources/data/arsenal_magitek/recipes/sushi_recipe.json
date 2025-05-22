@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " R ",
+    "   "
+  ],
+  "key": {
+  	"S": {
+      "item": "minecraft:salmon"
+    }
+    ,
+    "R": {
+      "item": "arsenal_magitek:rice"
+    }
+  },
+  "result": {
+    "item": "arsenal_magitek:sushi",
+    "count": 3
+  }
+}

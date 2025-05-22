@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "STC",
+    " C "
+  ],
+  "key": {
+    "S": { "item": "minecraft:slime_ball" },
+    "T": { "item": "minecraft:tnt" },
+    "C": { "item": "minecraft:coal" }
+  },
+  "result": {
+    "item": "arsenal_magitek:grenade_weapon",
+    "count": 3
+  }
+}

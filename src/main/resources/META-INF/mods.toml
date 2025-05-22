@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge.
+license="All rights reserved"
+
+[[mods]] #mandatory
+modId="arsenal_magitek" #must match with your @Mod("arsenal_magitek")
+version="1.16.5-1.0" #your version
+displayName="arsenal_magitek Mod"
+logoFile="logo.png" #optional
+credits="Thanks for this example mod goes to Java"
+authors="Ricardo Quezada y Mario Jimeno"
+description='''Gracias'''
+
+[[dependencies.arsenal_magitek]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.arsenal_magitek]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"

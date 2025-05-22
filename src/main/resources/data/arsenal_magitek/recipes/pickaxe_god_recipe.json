@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "B": { "item": "minecraft:blaze_powder" },
+    "G": { "item": "minecraft:gold_block" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "arsenal_magitek:pickaxe_god",
+    "count": 1
+  }
+}
