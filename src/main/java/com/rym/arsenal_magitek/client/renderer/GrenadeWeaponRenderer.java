@@ -34,7 +34,7 @@ public class GrenadeWeaponRenderer extends EntityRenderer<GrenadeWeaponEntity> {
         ItemStack stack = entity.getItem();
 
         matrixStack.pushPose();
-        matrixStack.translate(0.0D, 0.0D, 0.0D); // Puedes probar con 0.25D, 0.1D, etc.
+        matrixStack.translate(0.0D, 0.0D, 0.0D);
 
         matrixStack.mulPose(Vector3f.YP.rotationDegrees(-entityYaw));
         
@@ -50,6 +50,6 @@ public class GrenadeWeaponRenderer extends EntityRenderer<GrenadeWeaponEntity> {
 
     @Override
     public ResourceLocation getTextureLocation(GrenadeWeaponEntity entity) {
-        return null; // Usamos renderizado por ítem, no textura directa
+        return null;
     }
 }
